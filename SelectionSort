@@ -1,0 +1,18 @@
+# Proje 1
+
+## Insertion Sort 
+1-) [22,27,16,2,18,6] -> 22 ile 27 kıyaslanır
+2-) [16,22,27,2,18,6] -> ardından 16
+3-) [2,16,22,27,18,6] -> ardından 2
+4-) [2,16,18,22,27,6] -> ardından 18
+5-) [2,6,16,18,22,27] -> ve son olarak 6
+
+Big-O gösterimi -> n^2
+
+Time Complaxity -> Average Case'e girer çünkü aranan 18 sayısı ortada.
+
+## Selection Sort
+1-) [7,3,5,8,2,9,4,15,6] -> min 2
+2-) [2,3,5,8,7,9,4,15,6] -> next min 3
+3-) [2,3,5,8,7,9,4,15,6] -> next min 4
+4-) [2,3,4,8,7,9,5,15,6] -> next min 5
